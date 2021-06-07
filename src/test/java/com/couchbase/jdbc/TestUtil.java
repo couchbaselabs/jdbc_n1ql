@@ -159,7 +159,7 @@ public class TestUtil
     	rebalanceInAllowed = true;
     }
     public static String getUser() {
-        return environment.getProperty("couchbasedb.test.user", "Adminisrator");
+        return environment.getProperty("couchbasedb.test.user", "Administrator");
     }
 
     public static String getPassword() {
